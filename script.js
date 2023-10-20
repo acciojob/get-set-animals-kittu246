@@ -11,8 +11,8 @@ class Animal {
 
       
 
-      makeSound(sound){
-         console.log(sound);
+      makeSound(){
+         console.log("logs sound");
 
       }
    }
