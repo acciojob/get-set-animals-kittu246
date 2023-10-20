@@ -24,8 +24,12 @@ class Animal {
 
       }
    }
-   let c1 = new Cat();
+   let c1 = new Cat("Felis catus");
+
+  console.log(c1._species);
+   c1.makeSound();
    c1.purr();
+   
    
 
    class Dog extends Animal {
